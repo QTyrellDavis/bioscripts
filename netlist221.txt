@@ -1,0 +1,42 @@
+Description:
+This a model from the article:
+	Kinetic modeling of tricarboxylic acid cycle and glyoxylate bypass in Mycobacterium tuberculosis, and its application to assessment of drug targets. Singh VK  ,  Ghosh I. Theor Biol Med Model 2006 Aug 3;3:27
+16887020,
+
+
+        Abstract:
+    
+BACKGROUND: Targeting persistent tubercule bacilli has become an important challenge in the development of anti-tuberculous drugs. As the glyoxylate bypass is essential for persistent bacilli, interference with it holds the potential for designing new antibacterial drugs. We have developed kinetic models of the tricarboxylic acid cycle and glyoxylate bypass in Escherichia coli and Mycobacterium tuberculosis, and studied the effects of inhibition of various enzymes in the M. tuberculosis model. RESULTS: We used E. coli to validate the pathway-modeling protocol and showed that changes in metabolic flux can be estimated from gene expression data. The M. tuberculosis model reproduced the observation that deletion of one ofthe two isocitrate lyase genes has little effect on bacterial growth in macrophages, but deletion of both genes leads to the elimination of the bacilli from the lungs. It also substantiated the inhibition of isocitrate lyases by 3-nitropropionate. On the basis of our simulation studies, we propose that: (i) fractional inactivation of both isocitrate dehydrogenase 1 and isocitrate dehydrogenase 2 is required for a flux through the glyoxylate bypass in persistent mycobacteria; and (ii) increasing the amount of active isocitrate dehydrogenases can stop the flux through the glyoxylate bypass, so the kinase that inactivates isocitrate dehydrogenase 1 and/or the proposed inactivator of isocitrate dehydrogenase 2 is a potential target for drugs against persistent mycobacteria. In addition, competitive inhibition of isocitrate lyases along with a reduction in the inactivation of isocitrate dehydrogenases appears to be a feasible strategy for targeting persistent mycobacteria. CONCLUSION: We used kinetic modeling of biochemical pathways to assess various potential anti-tuberculous drug targets that interfere with the glyoxylate bypass flux, and indicated the type of inhibition needed to eliminate the pathogen. The advantage of such an approach to the assessment of drug targets is that it facilitates the study of systemic effect(s) of the modulation of the target enzyme(s) in the cellular environment.
+   
+This model originates from BioModels Database: A Database of Annotated
+ Published Models. It is copyright (c) 2005-2011 The BioModels.net Team. 
+
+*Net
+CS> -1 -2 3 4 [0.00003 0.44688 0.00007 0.0044688 0.0003 0.0007] (1.0)
+ACN> -4 5 [0.0017 0.62928 0.00333 0.00062928] (1.0) 
+ICD> -5 6 [0.000008 0.006625 0.00013 0.00006625] (1.0)
+KDH> -6 7 [0.0001 0.057344 0.001 0.00057344]  (1.0)
+ScAS> -7 8 [0.00002 0.00896 0.005 0.0000896] (1.0)
+SDH> -8 9 [0.00002 0.0177 0.0004 0.01624] (1.0)
+FUM> -9 10[0.00015 0.15624 0.00004 0.14467] (1.0)
+MDH> -10 2 [0.0026 1.3909 0.00004 1.27606] (1.0)
+MS> -1 -11 3 10 [0.00001 0.0285 0.002 .000285 0.0001 0.001] (1.0)
+ICL> -5 9 12[0.000604 0.0285 0.00059 0.000285 0.00013] (1.0)
+SYNTHSINK> -6 12 [0.00013 0.006625 0.00003 0] (1.0)
+
+*Met
+1 (0.0005)
+2 (0.0000014)
+3 (0.0000001)
+4 (0.009)
+5 (0.00015)
+6 (0.0002)
+7 (0.00004)
+8 (0.006)
+9 (0.0003)
+10 (0.005)
+11 (0.004)
+12 (0.0001)
+
+
+*Run(t,10.0,0.01)*
